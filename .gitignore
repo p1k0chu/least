@@ -1,0 +1,7 @@
+*.[ao]
+/build
+
+/configure
+
+/autom4te.cache/
+.cache

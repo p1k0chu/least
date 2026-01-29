@@ -1,0 +1,10 @@
+CC := @CC@
+LD := @CC@
+CFLAGS := @CFLAGS@
+LDFLAGS := @LDFLAGS@
+
+srcdir := @srcdir@
+VPATH := @srcdir@
+
+least: least.o
+
