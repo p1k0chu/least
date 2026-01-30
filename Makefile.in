@@ -6,5 +6,11 @@ LDFLAGS := @LDFLAGS@
 srcdir := @srcdir@
 VPATH := @srcdir@
 
+CFLAGS += -Wall -Wextra
+
 least: least.o
+
+clean:
+	@$(RM) -v least *.o
+.PHONY: clean
 
