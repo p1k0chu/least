@@ -27,9 +27,9 @@ command | least		-- page the output of command
 
 Keys:
 - `j` or arrow down: scroll down one line
-- 'd': scroll down half of your screen
-- 'f': scroll down by full screen
-- 'q': quit
+- `d`: scroll down half of your screen
+- `f`: scroll down by full screen
+- `q`: quit
 
 ## License
 
