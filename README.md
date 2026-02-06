@@ -7,7 +7,7 @@ pager to do. It can't go back in files either.
 ## Building
 
 This project uses [cbuild](https://github.com/p1k0chu/cbuild).  
-Run script `./scripts/bootstrap_cbuild.sh`, for initial compilation of
+Run script `./lib/cbuild/bootstrap.sh`, for initial compilation of
 `build.c`, then run `./build` to build the project
 
 ## Usage

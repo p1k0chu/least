@@ -1,3 +1,5 @@
+#include "build.h"
+
 #include <cbuild.h>
 #include <stdlib.h>
 #include <wait.h>
@@ -5,9 +7,7 @@
 int main(int argc, char **argv) {
     cbuild_recompile_myself(__FILE__,
                             argv,
-                            "-Llib/cbuild",
-                            "-lcbuild",
-                            "-Ilib/cbuild/include",
+                            CBUILD_SELFCOMPILE_FLAGS,
                             NULL);
 
     cbuild_obj_t *least_o = cbuild_obj_create("least.c", "-Wall", "-Wextra", NULL);
