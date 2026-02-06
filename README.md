@@ -6,16 +6,9 @@ pager to do. It can't go back in files either.
 
 ## Building
 
-Run `autoconf` to generate `configure` script, then inside your build
-directory run that script, e.g:
-
-```sh
-autoconf
-mkdir build && cd build
-../configure
-```
-
-Then run `make` and you get a binary called `least`
+This project uses [cbuild](https://github.com/p1k0chu/cbuild).  
+Run script `./scripts/bootstrap_cbuild.sh`, for initial compilation of
+`build.c`, then run `./build` to build the project
 
 ## Usage
 
